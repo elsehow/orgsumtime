@@ -2,14 +2,16 @@
   "name": "empty-module",
   "version": "1.0.0",
   "description": "",
-  "main": "src/index.js",
+  "main": "index.js",
   "scripts": {
-    "watch": "nodemon test/test.js"
+    "test": "nodemon test/test.js | tap-spec"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "nodemon": "^1.17.2"
+    "nodemon": "^1.17.2",
+    "tap-spec": "^5.0.0",
+    "tape": "^4.9.1"
   }
 }
