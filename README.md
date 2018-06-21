@@ -1,3 +1,3 @@
 # empty-module
 
-do `npm run watch` to run tests and watch for changes
+do `npm test` to run tests and watch for changes
