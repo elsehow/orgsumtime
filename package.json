@@ -7,8 +7,8 @@
     "test": "nodemon test/test.js | tap-spec"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "elsehow",
+  "license": "BSD-3-Clause",
   "devDependencies": {
     "nodemon": "^1.17.2",
     "tap-spec": "^5.0.0",
@@ -16,8 +16,13 @@
   },
   "dependencies": {
     "lodash.flow": "^3.5.0",
+    "minimist": "^1.2.0",
     "moment": "^2.22.2",
     "org-mode-parser": "^0.1.3",
-    "tinyfunk": "^1.4.0"
+    "tinyfunk": "^1.4.0",
+    "usage-and-quit": "0.0.1"
+  },
+  "bin": {
+    "orgsumtime": "command.js"
   }
 }

@@ -29,7 +29,9 @@ function sumOrg (pathToOrgFile, cb) {
     })
 }
 
-module.exports = {
-    sumLogbook:sumLogbook,
-    sumOrg:sumOrg,
-}
+// module.exports = {
+//     sumLogbook:sumLogbook,
+//     sumOrg:sumOrg,
+// }
+
+module.exports = sumOrg
