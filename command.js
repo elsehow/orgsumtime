@@ -19,7 +19,7 @@ Print as ISO_8601 formatted duration. https://en.wikipedia.org/wiki/ISO_8601#Dur
 `
 let argv = require('minimist')(process.argv.slice(2));
 let path = argv._[0]
-let sumOrg = require('.').sumOrg
+let sumOrg = require('.')
 sumOrg(path, duration => {
 
     if (argv.help) {
