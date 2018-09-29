@@ -1,7 +1,7 @@
 {
-  "name": "empty-module",
+  "name": "orgsumtime",
   "version": "1.0.0",
-  "description": "",
+  "description": "Sum the duration of all logged time in a given org-mode file.",
   "main": "index.js",
   "scripts": {
     "test": "nodemon test/test.js | tap-spec"
@@ -14,6 +14,10 @@
     "tap-spec": "^5.0.0",
     "tape": "^4.9.1"
   },
+    "repository": {
+        "type" : "git",
+        "url" : "https://github.com/elsehow/orgsumtime"
+    },
   "dependencies": {
     "lodash.flow": "^3.5.0",
     "minimist": "^1.2.0",

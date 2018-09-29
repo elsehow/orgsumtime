@@ -1,6 +1,6 @@
 # orgsumtime
 
-Sum the duration of all logged time in a given org-mode file.
+Sum the duration of all [logged time in a given org-mode file](https://orgmode.org/manual/Clocking-work-time.html).
 
 ## install
 
@@ -10,7 +10,7 @@ Sum the duration of all logged time in a given org-mode file.
 
 ```sh
 orgsumtime ~/Notes/deft/serving\ method.org
-> 13 hours
+# 13 hours
 ```
 
 Use `--help` flag to see other options.
